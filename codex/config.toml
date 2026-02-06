@@ -1,0 +1,11 @@
+# ~/.codex/config.toml - OpenAI Codex CLI configuration
+# https://developers.openai.com/codex/config-reference/
+
+# Model selection
+# model = "o4-mini"
+
+# Approval policy: "suggest" | "auto-edit" | "full-auto"
+# approval_policy = "suggest"
+
+# Project instructions file (equivalent to CLAUDE.md)
+# project_doc_filenames = ["AGENTS.md"]

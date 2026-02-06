@@ -33,6 +33,11 @@ dotfiles/
 │   └── config                  # template hosts SSH
 ├── claude/
 │   └── statusline.py           # status line Claude Code CLI
+├── codex/
+│   └── config.toml             # config OpenAI Codex CLI
+├── gemini/
+│   ├── settings.json           # config Google Gemini CLI
+│   └── GEMINI.md               # instructions globales Gemini
 ├── install.sh                  # installateur (symlinks)
 └── .gitignore
 ```
@@ -63,8 +68,16 @@ Le script `install.sh` :
 Les fichiers suivants ne sont **jamais versionnés** (voir `.gitignore`) :
 - `~/.bashrc.local` (overrides locaux)
 - Clés SSH (`ssh/id_*`, `ssh/*.pub`)
-- Credentials Claude
+- Credentials Claude, Codex, Gemini
 - `known_hosts`
+
+## AI CLI tools
+
+| Outil | Config dir | Instructions file | Config versionnée |
+|---|---|---|---|
+| Claude Code | `~/.claude/` | `CLAUDE.md` (par projet) | `statusline.py` |
+| OpenAI Codex | `~/.codex/` | `AGENTS.md` (par projet) | `config.toml` |
+| Google Gemini | `~/.gemini/` | `GEMINI.md` (global + par projet) | `settings.json`, `GEMINI.md` |
 
 ## Environnements supportés
 

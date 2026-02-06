@@ -46,6 +46,17 @@ echo "[claude]"
 mkdir -p "$HOME/.claude"
 link_file "$DOTFILES_DIR/claude/statusline.py" "$HOME/.claude/statusline.py"
 
+# --- Codex ---
+echo "[codex]"
+mkdir -p "$HOME/.codex"
+link_file "$DOTFILES_DIR/codex/config.toml" "$HOME/.codex/config.toml"
+
+# --- Gemini ---
+echo "[gemini]"
+mkdir -p "$HOME/.gemini"
+link_file "$DOTFILES_DIR/gemini/settings.json" "$HOME/.gemini/settings.json"
+link_file "$DOTFILES_DIR/gemini/GEMINI.md" "$HOME/.gemini/GEMINI.md"
+
 echo ""
 echo "Done. Run 'source ~/.bashrc' to reload."
 echo ""

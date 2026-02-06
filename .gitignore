@@ -13,6 +13,12 @@ claude/.credentials*
 claude/history.jsonl
 claude/settings.json
 
+# Codex credentials
+codex/.auth*
+
+# Gemini credentials
+gemini/.credentials*
+
 # Backups created by install.sh
 *.bak
 
