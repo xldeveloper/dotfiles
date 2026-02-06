@@ -1,0 +1,21 @@
+# Local overrides (machine-specific, never versioned)
+*.local
+.bashrc.local
+
+# SSH keys and sensitive files
+ssh/id_*
+ssh/*.pub
+ssh/known_hosts
+ssh/agent.env
+
+# Claude credentials
+claude/.credentials*
+claude/history.jsonl
+claude/settings.json
+
+# Backups created by install.sh
+*.bak
+
+# OS junk
+.DS_Store
+Thumbs.db

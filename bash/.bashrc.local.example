@@ -1,0 +1,15 @@
+#!/bin/bash
+# ~/.bashrc.local - Machine-specific overrides (NEVER commit this file)
+#
+# Copy this file to ~/.bashrc.local and customize for your machine.
+# This file is loaded last and can override anything.
+
+# Example: proxy settings
+# export http_proxy=http://127.0.0.1:2080
+# export https_proxy=http://127.0.0.1:2080
+
+# Example: custom aliases
+# alias myproject='cd /path/to/my/project'
+
+# Example: custom PATH additions
+# export PATH="/custom/path:$PATH"

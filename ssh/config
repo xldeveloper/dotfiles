@@ -1,0 +1,15 @@
+# SSH config template
+# Copy to ~/.ssh/config and customize
+
+# GitHub
+Host github.com
+    HostName github.com
+    User git
+    IdentityFile ~/.ssh/id_ed25519
+
+# GitLab (example)
+# Host gitlab.example.com
+#     HostName gitlab.example.com
+#     Port 22
+#     User git
+#     IdentityFile ~/.ssh/id_ed25519_gitlab
